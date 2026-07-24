@@ -8,7 +8,6 @@ Educational demo that shows **who receives each SignalR message** when you use d
 |-------|------|
 | Backend | ASP.NET Core 8, SignalR `NotificationHub`, in-memory connection manager |
 | Frontend | Next.js 14, React, TypeScript, Tailwind CSS, `@microsoft/signalr` |
-| Presentation | `presentation/Understanding_SignalR_Message_Routing.pptx` |
 
 ## Demo users & groups
 
@@ -68,4 +67,4 @@ Open http://localhost:3001 — pick a demo user, click **Connect**, then try eac
 3. **Groups** are server-side labels joined via `Groups.AddToGroupAsync` (done automatically on connect in this demo).
 4. Network path: **HTTP negotiate → WebSocket → Hub protocol → Clients.* routing**.
 
-See the in-app page **How SignalR Works** and the PowerPoint deck for diagrams and protocol details.
+See the in-app page **How SignalR Works** for diagrams and protocol details.
